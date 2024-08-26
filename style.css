@@ -1,0 +1,42 @@
+:root{
+    --fundo: white;
+    --cor-principal: #09376C;
+    --cor-secundaria: #99C5F7;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('img/background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -80px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    gap: 10px;
+    padding-top: 40px;
+    flex-direction: column;
+    background-color: var(--cor-principal);
+    margin: auto;
+    opacity: 80%;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.input {
+    height: 40px;
+    width: 200px;
+    font-size: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor-secundaria);
+    outline: none;
+}
