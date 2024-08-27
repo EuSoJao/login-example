@@ -1,19 +1,18 @@
 :root {
-    --fundo: white;
-    --cor-principal: #09376C;
+    --fundo: rgb(255, 255, 255);
+    --cor-principal: #155eb3;
     --cor-secundaria: #99C5F7;
     --cor-button-hover: #003F87;
+}
+
+body {
+background: radial-gradient(#0063D3,#004FA9,#003F87,#09376C,#072C56);
 }
 
 html {
     padding: 0;
     margin: 0;
     font-family: "Roboto Mono", monospace;
-}
-
-body {
-    background-image: url('img/background.svg');
-    background-repeat: no-repeat;
 }
 
 .login {
@@ -29,6 +28,7 @@ body {
     height: 500px;
     width: 400px;
     border-radius: 5px;
+    animation: loginBox 0.5s linear;
 }
 
 .input {
@@ -77,4 +77,15 @@ label {
 .button:hover {
     background-color: var(--cor-button-hover);
     color: var(--cor-secundaria);
+}
+
+@keyframes loginBox{
+    from{
+        opacity: 0%;
+        transform: translate3d(0,-40px,0)
+    }
+    to{
+        opacity: 80%;
+        transform: translate3d(0,0,0);
+    }
 }
