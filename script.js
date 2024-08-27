@@ -1,8 +1,6 @@
-const email = document.getElementsByClassName("input__email");
-const emailValue = email.value
-const password = document.getElementsByClassName("input__password");
+const input = document.getElementById("myInput");
+const inputValue = input.value
 
-function aviso() {
-    console.log(emailValue)
+function alerta() {
+    console.log(inputValue);
 }
-
