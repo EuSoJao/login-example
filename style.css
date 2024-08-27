@@ -1,15 +1,17 @@
-:root{
+:root {
     --fundo: white;
     --cor-principal: #09376C;
     --cor-secundaria: #99C5F7;
+    --cor-button-hover: #003F87;
 }
 
-html{
+html {
     padding: 0;
     margin: 0;
+    font-family: "Roboto Mono", monospace;
 }
 
-body{
+body {
     background-image: url('img/background.png');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -26,17 +28,55 @@ body{
     background-color: var(--cor-principal);
     margin: auto;
     opacity: 80%;
-    height: 400px;
-    width: 300px;
+    height: 500px;
+    width: 400px;
     border-radius: 5px;
 }
 
 .input {
-    height: 40px;
+    height: 20px;
     width: 200px;
-    font-size: 40px;
+    font-size: 15px;
     border-radius: 5px;
     border: none;
     background-color: var(--cor-secundaria);
     outline: none;
+}
+
+#login__title {
+    color: var(--fundo);
+
+}
+
+label {
+    color: var(--cor-secundaria);
+}
+
+.user-icon {
+    justify-content: center;
+    margin: 0 auto;
+    height: 80px;
+    background-color: var(--cor-secundaria);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 6px;
+}
+
+.button {
+    height: 40px;
+    width: 99px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.button:hover {
+    background-color: var(--cor-button-hover);
+    color: var(--cor-secundaria);
 }
