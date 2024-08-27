@@ -20,7 +20,7 @@ html {
     align-items: center;
     vertical-align: middle;
     gap: 10px;
-    padding-top: 40px;
+    padding-top: auto;
     flex-direction: column;
     background-color: var(--cor-principal);
     margin: auto;
