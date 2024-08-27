@@ -14,8 +14,7 @@ html {
 body {
     background-image: url('img/background.svg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: -80px;
+    background-size: contain;
 }
 
 .login {
