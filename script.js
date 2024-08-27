@@ -1,9 +1,8 @@
-const email = document.getElementsByClassName("input__email")
-const password = document.getElementsByClassName("input__password")
+const email = document.getElementsByClassName("input__email");
+const emailValue = email.value
+const password = document.getElementsByClassName("input__password");
 
 function aviso() {
-    email.toString()
-    password.toString()
-    console.log(email + password)
+    console.log(emailValue)
 }
 
