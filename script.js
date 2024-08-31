@@ -1,6 +1,4 @@
-const input = document.getElementById("myInput");
-const inputValue = input.value
-
 function alerta() {
-    console.log(inputValue);
+const input = document.getElementById("myInput");
+    console.log(input);
 }
