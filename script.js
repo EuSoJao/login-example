@@ -3,7 +3,13 @@
     })
 
 function alerta() {
-    var input = document.getElementById("myInput");
-    var inputValue = input.value;
-    window.alert(inputValue);
+    var email = document.getElementById("myInput");
+    var inputValue = email.value;
+    var keyCode = inputValue.toUpperCase().charCodeAt(0);
+    var userInfo = {
+        'email': '',
+        'groups': {},
+        'id': keyCode *= 5/keyCode 
+    }
+    console.log(userInfo)
 }
