@@ -24,7 +24,7 @@ function alerta(){
     var emailValue = email.value;
     var idCalc = emailValue.toUpperCase();
     var id = [];
-    for(let i = 0; i < emailValue.length; i++) {
+    for(let i = 0; i < emailValue.length; i+i) {
       id.push(emailValue.charCodeAt(i));
     }
     console.log(id)
