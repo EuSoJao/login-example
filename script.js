@@ -5,7 +5,7 @@
 function alerta() {
     var email = document.getElementById("emailInput");
     var emailValue = email.value;
-    var keyCode = inputValue.toUpperCase().charCodeAt(0);
+    var idCalc = inputValue.toUpperCase().charCodeAt(0);
     var userInfo = {
         'email': '',
         'groups': {},
@@ -13,6 +13,7 @@ function alerta() {
         'isSiteAdmin': false
     };
 
-    userInfo.email = emailValue
+    userInfo.email = emailValue;
+    userInfo.id = idCalc
     console.log(userInfo);
 }
