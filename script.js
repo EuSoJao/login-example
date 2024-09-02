@@ -7,9 +7,6 @@ function alerta() {
     var emailValue = email.value;
     var idCalc = emailValue.toUpperCase();
     var id = [];
-    for(let i = 0 < emailValue.length; i++) {
-        id.push(emailValue.charCodeAt(i))
-    }
     var userInfo = {
         'email': '',
         'groups': {},
@@ -22,11 +19,12 @@ function alerta() {
 };
 
 function log(){
-    var input = document.getElementById("inputBox");
-    var inputValue = input.value.toUpperCase();
-    var output = [];
-    for(let i = 0; i < inputValue.length; i++) {
-      output.push(inputValue.charCodeAt(i));
+    var email = document.getElementById("emailInput");
+    var emailValue = email.value;
+    var idCalc = emailValue.toUpperCase();
+    var id = [];
+    for(let i = 0; i < emailValue.length; i++) {
+      id.push(emailValue.charCodeAt(i));
     }
-    document.getElementById("outputBox").value = output.join(" ");
+    console.log(id)
 };
