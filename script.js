@@ -5,7 +5,7 @@
 function alerta() {
     var email = document.getElementById("emailInput");
     var emailValue = email.value;
-    var idCalc = emailValue.toUpperCase().charCodeAt();
+    var idCalc = emailValue.toUpperCase().charCodeAt(0);
     var userInfo = {
         'email': '',
         'groups': {},
@@ -14,6 +14,6 @@ function alerta() {
     };
 
     userInfo.email = emailValue;
-    userInfo.id = idCalc
+    userInfo.id = idCalc * 5/idCalc
     console.log(userInfo);
 }
