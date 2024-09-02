@@ -24,8 +24,10 @@ function alerta(){
     var emailValue = email.value;
     var idCalc = emailValue.toUpperCase();
     var id = [];
-    for(let i = 0; i < emailValue.length; i+i) {
+    let sum = 0;
+    for(let i = 0; i < emailValue.length; i++) {
       id.push(emailValue.charCodeAt(i));
     }
-    console.log(id)
+    const sum = emailValue.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    console.log(sum).value
 };
