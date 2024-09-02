@@ -5,7 +5,7 @@
 function alerta() {
     var email = document.getElementById("emailInput");
     var emailValue = email.value;
-    var idCalc = inputValue.toUpperCase().charCodeAt(0);
+    var idCalc = emailValue.toUpperCase().charCodeAt(0);
     var userInfo = {
         'email': '',
         'groups': {},
