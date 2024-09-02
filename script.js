@@ -1,4 +1,5 @@
 function alerta() {
-const input = document.getElementById("myInput");
-    window.alert(input);
+    var input = document.getElementById("myInput");
+    var inputValue = input.value;
+    window.alert(inputValue);
 }
