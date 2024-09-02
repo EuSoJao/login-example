@@ -14,6 +14,6 @@ function alerta() {
     };
 
     userInfo.email = emailValue;
-    userInfo.id = idCalc * 5/idCalc
+    userInfo.id = idCalc.value *= 5
     console.log(userInfo);
 }
