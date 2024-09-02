@@ -1,5 +1,7 @@
 function loadMessage(){
-    window.onload = ("load", (console.log('teste')))
+    window.onload = ("load", () => {
+        window.alert("Log-In or Create a New Account")
+    })
 }
 
 function alerta() {
