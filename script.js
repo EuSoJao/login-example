@@ -2,7 +2,7 @@
         window.alert("Log-In or Create a New Account")
     })
 
-function alerta() {
+/*function alerta() {
     var email = document.getElementById("emailInput");
     var emailValue = email.value;
     var idCalc = emailValue.toUpperCase();
@@ -17,8 +17,9 @@ function alerta() {
     userInfo.email = emailValue;
     console.log(userInfo);
 };
+*/
 
-function log(){
+function alerta(){
     var email = document.getElementById("emailInput");
     var emailValue = email.value;
     var idCalc = emailValue.toUpperCase();
