@@ -5,7 +5,11 @@
 function alerta() {
     var email = document.getElementById("emailInput");
     var emailValue = email.value;
-    var idCalc = emailValue.toUpperCase().charCodeAt(0);
+    var idCalc = emailValue.toUpperCase();
+    var id = [];
+    for(let i = 0 < emailValue.length; i++) {
+        id.push(emailValue.charCodeAt(i))
+    }
     var userInfo = {
         'email': '',
         'groups': {},
@@ -14,6 +18,15 @@ function alerta() {
     };
 
     userInfo.email = emailValue;
-    userInfo.id = idCalc.value *= 5
     console.log(userInfo);
-}
+};
+
+function log(){
+    var input = document.getElementById("inputBox");
+    var inputValue = input.value.toUpperCase();
+    var output = [];
+    for(let i = 0; i < inputValue.length; i++) {
+      output.push(inputValue.charCodeAt(i));
+    }
+    document.getElementById("outputBox").value = output.join(" ");
+};
