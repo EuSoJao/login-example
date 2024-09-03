@@ -1,7 +1,3 @@
-    window.onload = ("load", () => {
-        window.alert("Log-In or Create a New Account")
-    })
-
 /*function alerta() {
     var email = document.getElementById("emailInput");
     var emailValue = email.value;
@@ -19,15 +15,10 @@
 };
 */
 
-function alerta(){
-    var email = document.getElementById("emailInput");
-    var emailValue = email.value;
-    var idCalc = emailValue.toUpperCase();
-    var id = [];
-    let sum = 0;
-    for(let i = 0; i < emailValue.length; i++) {
-      id.push(emailValue.charCodeAt(i));
-    }
-    const sum = emailValue.split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
-    console.log(sum).value
-};
+function confete(){
+    confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.5 }
+      });
+}
