@@ -6,10 +6,10 @@
 }
 
 body {
-background: radial-gradient(#0063D3,#004FA9,#003F87,#09376C,#072C56);
-background-size: 100%;
-background-position: center top;
-height: 100%;
+    background: radial-gradient(#0063D3, #004FA9, #003F87, #09376C, #072C56);
+    background-size: 100%;
+    background-position: center top;
+    height: 100%;
 }
 
 html {
@@ -48,7 +48,6 @@ html {
 
 #login__title {
     color: var(--fundo);
-
 }
 
 label {
@@ -85,13 +84,14 @@ label {
     color: var(--cor-secundaria);
 }
 
-@keyframes loginBox{
-    from{
+@keyframes loginBox {
+    from {
         opacity: 0%;
-        transform: translate3d(0,-40px,0)
+        transform: translate3d(0, -40px, 0)
     }
-    to{
+
+    to {
         opacity: 80%;
-        transform: translate3d(0,0,0);
+        transform: translate3d(0, 0, 0);
     }
 }

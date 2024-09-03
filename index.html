@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="icon" href="img/user-icon.svg">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-</head>
+    <link rel="icon" href="img/user-icon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <form class="login">
-        <img src="img/user-icon.svg" alt="" class="user-icon">
-        <h1 id="login__title">Sign-in</h1>
-        <label for="input__email">E-mail</label>
-        <input type="email" class="input input__email" id="emailInput">
-        <label for="input__password">Password</label>
-        <input type="password" class="input input__password">
-            <section class="buttons">   
-                <button class="button sign__button" onclick="confete();" type="button">Sign-in</button>
-                <a class="button register__button">Create Account</a>
-            </section>
+      <img src="img/user-icon.svg" alt="" class="user-icon" />
+      <h1 id="login__title">Sign-in</h1>
+      <label for="input__email">E-mail</label>
+      <input type="email" class="input input__email" id="emailInput" />
+      <label for="input__password">Password</label>
+      <input type="password" class="input input__password" />
+      <section class="buttons">
+        <button class="button sign__button" onclick="confete();" type="button">
+          Sign-in
+        </button>
+        <a class="button register__button">Create Account</a>
+      </section>
     </form>
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
