@@ -10,12 +10,10 @@ function alerta() {
 
     userInfo.email = emailValue;
     console.log(userInfo);
-};
 
-function confete() {
-  confetti({
-    particleCount: 100,
-    spread: 20,
-    origin: { y: 0.6, x: 0.46 },
-  });
-}
+    confetti({
+      particleCount: 100,
+      spread: 20,
+      origin: { y: 0.6, x: 0.46 },
+    });
+};
