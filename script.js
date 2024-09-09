@@ -1,8 +1,6 @@
-/*function alerta() {
+function alerta() {
     var email = document.getElementById("emailInput");
     var emailValue = email.value;
-    var idCalc = emailValue.toUpperCase();
-    var id = [];
     var userInfo = {
         'email': '',
         'groups': {},
@@ -13,7 +11,6 @@
     userInfo.email = emailValue;
     console.log(userInfo);
 };
-*/
 
 function confete() {
   confetti({
