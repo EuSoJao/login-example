@@ -17,8 +17,8 @@
 
 function confete() {
   confetti({
-    particleCount: 10000000000,
-    spread: 10,
+    particleCount: 100,
+    spread: 20,
     origin: { y: 0.6, x: 0.46 },
   });
 }
